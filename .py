@@ -1,13 +1,13 @@
-# Programa para calcular a média de duas notas
+# Programa: soma_dois_numeros.py
+# Autor: (Seu nome)
+# Descrição: Lê dois números inteiros e mostra o somatório entre eles.
 
-# Solicita a primeira nota do usuário
-nota1 = float(input("Digite a primeira nota: "))
+# Entrada de dados
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
 
-# Solicita a segunda nota
-nota2 = float(input("Digite a segunda nota: "))
+# Processamento
+soma = numero1 + numero2
 
-# Calcula a média das notas
-media = (nota1 + nota2) / 2
-
-# Exibe o resultado formatado
-print(f"A média entre {nota1} e {nota2} é igual a {media}")
+# Saída de dados
+print(f"A soma entre {numero1} e {numero2} é igual a {soma}.")
